@@ -1,0 +1,200 @@
+{"id": "1828921", "message": "why my app store isnt working bih these devices are expensive as hell, do what u gotta do", "intent": "purchase_billing", "should_escalate": true}
+{"id": "1648364", "message": "Minha esposa comprou o celular iPhone 7 a 6 meses. Vive travando. E o suporte da Apple não resolve! Vergonha. !", "intent": "hardware", "should_escalate": false}
+{"id": "961108", "message": "AT WHY DOES THIS KEEP HAPPENING IS STEVE JOBS A POLTERGEIST NOW HOLY SHIT", "intent": "connectivity", "should_escalate": false}
+{"id": "1718433", "message": "I’ve tried restarting it multiple times but it still won’t let me and I only have one user account", "intent": "app_crash", "should_escalate": false}
+{"id": "875099", "message": "Charged my phone all night. Woke up with it at 100%. Fell asleep for an hour, woke up and it was at 1%. Lol.", "intent": "purchase_billing", "should_escalate": true}
+{"id": "2957159", "message": "I'm writing with alot of hope to get help regarding my purchase with apple India from Pune (Unicorn Infosolution) Apple sellers & servicing. I have had the worst of experience with their attitude, the way they talk to people after making them wait for 3 hrs is bad..", "intent": "purchase_billing", "should_escalate": true}
+{"id": "764855", "message": "my mini won’t boot, rebooted for the recent high sierra patches and now stuck in failing boot loop re: OSInstall.mpkg", "intent": "app_crash", "should_escalate": false}
+{"id": "151409", "message": "Apple support can only assist you with fixing your phone if they have the serial number. The phone won’t start. So I guess that means throw it away then? 😕", "intent": "other", "should_escalate": true}
+{"id": "2353681", "message": "my phone is stuck on this screen. Tried plugging in computer to connect to iTunes. Any suggestions?", "intent": "hardware", "should_escalate": false}
+{"id": "2095339", "message": "iOS 11 is buggy bros the patch needs another patch. System crashes. Total 🛑 then buffering then it reboots like a good soldier.", "intent": "app_crash", "should_escalate": false}
+{"id": "1817632", "message": "my son picked up his phone and this is on the screen?? HELP", "intent": "hardware", "should_escalate": false}
+{"id": "769635", "message": "My mail app disappeared,had to delete and reinstall,it’s still not working ok,wifi keeping coming on its own,volume buttons were not working", "intent": "connectivity", "should_escalate": false}
+{"id": "2378166", "message": "why is my Apple Watch microphone not working?", "intent": "app_crash", "should_escalate": false}
+{"id": "1541125", "message": "I can’t transfer my data from old iPhone 7 to new iPhone X because IOS 11.2 isn’t available for the X. What can I do?", "intent": "ios_update_bug", "should_escalate": false}
+{"id": "1350632", "message": "Noticed it with twitter, snapchat, instagram, basically everything!", "intent": "other", "should_escalate": true}
+{"id": "1386749", "message": "worst update ever, ios11😡😡😡😡 its effing awful, drains battery, horrible layout, choppy, who came up with this??", "intent": "battery_performance", "should_escalate": false}
+{"id": "807402", "message": "WiFi... cheers", "intent": "connectivity", "should_escalate": false}
+{"id": "2955461", "message": "why doing ave to restart my phone twice a day? Frozen screen. iMessage inaccessible. What happened to quality? Gonna Ditch iPhone.", "intent": "app_crash", "should_escalate": false}
+{"id": "1761048", "message": "Nope no WiFi at all, have tried restarting,and Bluetooth is fine", "intent": "connectivity", "should_escalate": false}
+{"id": "414991", "message": "dear sir my battery become too weak after the last update i have 6sPlus please i need to fix that problem", "intent": "ios_update_bug", "should_escalate": false}
+{"id": "1709202", "message": "My IPhone glitch is that it won’t stay connected to any WiFi. ?", "intent": "connectivity", "should_escalate": false}
+{"id": "994497", "message": "why my battery percentage keep draining while charging? And the battery cant charge, its stay at 15%", "intent": "battery_performance", "should_escalate": false}
+{"id": "1358115", "message": "My pick up time for my #iPhoneX is 9:00am-9:30am yet the mall and Apple store doesn’t open till 10:00am? 🤔🤔😅 help?", "intent": "hardware", "should_escalate": false}
+{"id": "1882518", "message": "Top status bar (wifi, clock, battery) is not rotating on rotation of iPad or is duplicating upon iPad rotation 2/2", "intent": "battery_performance", "should_escalate": false}
+{"id": "272908", "message": "please repair control center. Bluetooth does not completely turn off", "intent": "connectivity", "should_escalate": false}
+{"id": "1919925", "message": "Pathetic service. 1 day old phone giving nightmares.. Please take this stupid box back and refund my money.", "intent": "purchase_billing", "should_escalate": true}
+{"id": "2062897", "message": "problem with ios 11 update while low battery warning apps struck and hangs", "intent": "ios_update_bug", "should_escalate": false}
+{"id": "1680829", "message": "any response to my lost parcel that was sent to 3 weeks ago? Nothing from your customer support or online...", "intent": "other", "should_escalate": true}
+{"id": "2008691", "message": "I updated the the new software on my iPhone and ever since my battery keeps draining... I’m only getting about 3 hours of battery..", "intent": "battery_performance", "should_escalate": false}
+{"id": "2898974", "message": "even after restarting, its still doing it. i’ll try redownloading it in a moment!", "intent": "app_crash", "should_escalate": false}
+{"id": "2586370", "message": "Every app takes about 4 attempts to open. Alarms not working correctly so I am being late for work. Phone keeps freezing completely and then crashing/restarting so I am missing important work calls.", "intent": "app_crash", "should_escalate": false}
+{"id": "690448", "message": "why does it say I need to verify my billing info for free apps??", "intent": "purchase_billing", "should_escalate": true}
+{"id": "867504", "message": "Got my MacBook air screen replaced on Monday.. now the laptop is not turning on and neither the charger is working", "intent": "hardware", "should_escalate": false}
+{"id": "2479016", "message": "do I need to make an appointment to see if I need a battery replacement?", "intent": "battery_performance", "should_escalate": false}
+{"id": "1847934", "message": "please fix the issue with messages not sending on a new cellular Series 3 ⌚️. Seems to happen when I leave the vicinity of my phone.", "intent": "connectivity", "should_escalate": false}
+{"id": "2031879", "message": "Since updating my iPhone 6, does not work well, I need help", "intent": "hardware", "should_escalate": false}
+{"id": "2686684", "message": "All I want for Christmas is for to fix this battery drainage 🙄🤬!!!", "intent": "battery_performance", "should_escalate": false}
+{"id": "642043", "message": "I downloaded the update and the I.T thing is still happening", "intent": "ios_update_bug", "should_escalate": false}
+{"id": "1164643", "message": "ever since the latest iOS update my iPhone 7 repeatedly crashes/freezes & there’s no sound on phone calls. Will this be fixed?", "intent": "app_crash", "should_escalate": false}
+{"id": "921054", "message": "iTunes wants me to sign in 3 times and says my \"session has expired\" is there any solution to this.. I've tried a re-install..", "intent": "icloud_account", "should_escalate": true}
+{"id": "783458", "message": "Bateria começou a descarregar um pouco mais rápido... agora tem que desativar wi-fi e bluetooth dentro de Ajustes... e deixo em modo noturno", "intent": "connectivity", "should_escalate": false}
+{"id": "2347697", "message": "fix this shit 👏🏽. Sincerely yours MEQ", "intent": "other", "should_escalate": true}
+{"id": "1221843", "message": "Song shows in iPad library ... not on iPhone...not in purchase history on either... yes bought on iTunes...same Apple ID.", "intent": "hardware", "should_escalate": false}
+{"id": "2771814", "message": "A restart hasn’t worked it’s still happening every a few times a week, it’s a brand new phone and this shouldn’t be happening and I don’t know why it is :(", "intent": "app_crash", "should_escalate": false}
+{"id": "1681659", "message": "here’s your daily reminder that your product is trash #FixIt I️", "intent": "other", "should_escalate": true}
+{"id": "1637117", "message": "I fixed it :’)", "intent": "other", "should_escalate": true}
+{"id": "585880", "message": "you see how my typing has to change because can’t fix the glitch with the letter ‘I’ 🤦🏽‍♀️", "intent": "other", "should_escalate": true}
+{"id": "1703961", "message": "Yo can’t you fix this I️t", "intent": "other", "should_escalate": true}
+{"id": "2067473", "message": "Battery draining too fast and phone gets unusual warm for normal use after updating to iOS.", "intent": "battery_performance", "should_escalate": false}
+{"id": "1026281", "message": "iOS realmente están acabando con mi paciencia!!! iPhone desactivado al actualizar porqué!!!!! 😡😤", "intent": "ios_update_bug", "should_escalate": false}
+{"id": "2453626", "message": "countless hours phoine and physical to resolve (not) issues with connectivity. Second iPhone 6plus again failed. I'm battered.", "intent": "hardware", "should_escalate": false}
+{"id": "2713217", "message": "Hey you should make it so you have to put in a passcode to turn the phone off and please take airplane mode/cellular off the locked control center. Would make it a little harder for thieves to get away with stolen phones 🙃 #byebye1000dollars", "intent": "connectivity", "should_escalate": true}
+{"id": "2191193", "message": "every time while taking #conference call and answering #call #waiting", "intent": "other", "should_escalate": true}
+{"id": "2037519", "message": "I️ love my #iPhoneX. However, battery life, text app failing during long texts, and actual hot phone temp is driving me cray cray. 🤪", "intent": "battery_performance", "should_escalate": false}
+{"id": "402661", "message": "Why is everything with so shitty? Can't even schedule a repair for a broken keyboard. Website keeps asking for password :(", "intent": "icloud_account", "should_escalate": true}
+{"id": "1955487", "message": "I thought at first it was a Fitbit problem but as Garmin users having same problem I wondered whether it was in the iOS11 update itself", "intent": "ios_update_bug", "should_escalate": false}
+{"id": "2615341", "message": "iPhone 6S, IOS 11.1. I️ do not experience this with any other app", "intent": "ios_update_bug", "should_escalate": false}
+{"id": "2728193", "message": "hello i need help, is there someone i can chat with about my apple id?", "intent": "icloud_account", "should_escalate": true}
+{"id": "2341746", "message": ": Three month old MacAir purchased from Apple Store Road Singapore dies. Mac works till the time it is in the store and then dies again as soon as I reach home.1260 SGD wasted.Pathetic Customer Service.", "intent": "purchase_billing", "should_escalate": true}
+{"id": "90700", "message": "So I accidentally did the new update,cause it kept popping up on my screen,n now battery is at 39% after charging all night n went down to 30% in literally 15seconds of use..... WTF?!", "intent": "battery_performance", "should_escalate": false}
+{"id": "105330", "message": "Why I can’t turn my WiFi button on?", "intent": "connectivity", "should_escalate": false}
+{"id": "2246912", "message": "guys, not so long ago I tweeted about a problem with my app store on my macb air. The app store's still not working. Help?", "intent": "app_crash", "should_escalate": false}
+{"id": "1237620", "message": "11.0.3 KILLED my iPhone 6. First, battery dies in couple hrs, then in mins, now it's a BRICK. Hardware issue? I don't think so", "intent": "battery_performance", "should_escalate": false}
+{"id": "1218359", "message": "My battery worked fine. Factory reset phone this weekend. Battery at 50% after an hour. Only listened to a podcast. WTF", "intent": "battery_performance", "should_escalate": false}
+{"id": "259440", "message": "I keep trying to update payment info but all it does is load for ages and says can’t connect to iCloud WiFi is connected etc.", "intent": "ios_update_bug", "should_escalate": false}
+{"id": "778297", "message": "Yes and how do I do that???", "intent": "other", "should_escalate": true}
+{"id": "2594452", "message": "I can no longer count on my touch screen working. So it’s basically like not having a phone at all.", "intent": "hardware", "should_escalate": false}
+{"id": "2909343", "message": "After a full charge then 2:20 min of use my #iPhone has only 32% left. This is absurd.", "intent": "hardware", "should_escalate": false}
+{"id": "847086", "message": "iOS 11.0.3 was supposed to fix touch screen problems and it’s made my perfectly ok iPhone device have problems", "intent": "hardware", "should_escalate": false}
+{"id": "1396229", "message": "my daughter has deleted the app that has all the episodes/films that I downloaded from the App Store. Can’t find the app", "intent": "purchase_billing", "should_escalate": true}
+{"id": "87196", "message": "ok why did my phone run out of battery at 45% ? smh", "intent": "battery_performance", "should_escalate": false}
+{"id": "509559", "message": "I should be still able to access the photos though? This has been like this for around 1 hour with a fast Wi-fi connection.", "intent": "connectivity", "should_escalate": false}
+{"id": "352844", "message": "The only thing I’m liking about the iPhone 8 is the battery life because my iMessage doesn’t work. 😊😊😊😊", "intent": "battery_performance", "should_escalate": false}
+{"id": "1418052", "message": "saga continues new upgrade not working iTunes backup impossible -ee insist on reboot -no iTunes back up - phone fail.ANGRY", "intent": "app_crash", "should_escalate": false}
+{"id": "862842", "message": "Hey while you’re selling £1149 phones you have websites where you can’t login properly on iPhones.", "intent": "icloud_account", "should_escalate": true}
+{"id": "193659", "message": "The leatest update ios11.0.2 I already updated my phone(iphone6s)", "intent": "ios_update_bug", "should_escalate": false}
+{"id": "2519360", "message": "please, please, please get rid of the feature that turns WiFi back on after it’s been turned off. I don’t want to be connecting to random open networks. There is zero use for this feature STOP IT. No user benefit whatsoever. Thank god for 280 characters.", "intent": "connectivity", "should_escalate": false}
+{"id": "1003898", "message": "... Is there a way that my Bluetooth can automatically stop turning itself on? As this is really starting to annoy me", "intent": "connectivity", "should_escalate": false}
+{"id": "2565811", "message": "Hello Impossible since 3 days to access my purchase history, ask me for pwd 4 times and come back to itunes. pwd is correct :(", "intent": "purchase_billing", "should_escalate": true}
+{"id": "2051454", "message": "Hey uhh ever since I got iOS 11 my phone has done nothing but freeze and crash every time I open an app...it’s a problem", "intent": "app_crash", "should_escalate": false}
+{"id": "509600", "message": "i've received 10 voicemails on my landline (i know) today claiming to be telling me there is a security issue with my iCloud account. i called back to question them & it's clearly a scam since they hung up on me when i asked too many questions. how to make it stop??", "intent": "icloud_account", "should_escalate": true}
+{"id": "1703911", "message": "Y’all know your shitty update autocorrects for the letter “I”, right?", "intent": "ios_update_bug", "should_escalate": false}
+{"id": "2642270", "message": "i️ just did that and it worked for the first text i️ sent then it showed up again", "intent": "other", "should_escalate": true}
+{"id": "1920026", "message": "I put the battery case on my phone this morning and my phone started having all the same issues it had before they replaced it.", "intent": "battery_performance", "should_escalate": false}
+{"id": "1646330", "message": "Mr. Robot is not working on Apple TV ITunes", "intent": "app_crash", "should_escalate": false}
+{"id": "2029075", "message": "need help with the iCloud please ?", "intent": "icloud_account", "should_escalate": true}
+{"id": "2436021", "message": "I am currently in Malaysia. I have also spoken to and the billing issue is with Apple. Thanks", "intent": "purchase_billing", "should_escalate": true}
+{"id": "2253512", "message": "Yeah, I think I’m running 11.1 but see when i type I️ that’s what comes up", "intent": "other", "should_escalate": true}
+{"id": "1535710", "message": "how do u cancel subscriptions that come out every month x", "intent": "purchase_billing", "should_escalate": true}
+{"id": "1989710", "message": "My phone battery has gone down 63% in 15 minutes. Nice one", "intent": "battery_performance", "should_escalate": false}
+{"id": "798835", "message": "I lost my AirPods charging case lifestyle went back to centuries ago, can you send me a new one? 😁", "intent": "battery_performance", "should_escalate": false}
+{"id": "548039", "message": "Clock icon froze again. iOS has a bug.", "intent": "ios_update_bug", "should_escalate": false}
+{"id": "481753", "message": "It happens when i do anything on my device and even when I’m connected to Wi-Fi.", "intent": "connectivity", "should_escalate": false}
+{"id": "151407", "message": "I can’t fucking call nobody because the Phone Dialer is not working at all in my iPhone after iOS11 upgrade. Fix it", "intent": "ios_update_bug", "should_escalate": false}
+{"id": "1297984", "message": "I have just received this email. I have not subscribed to any new service from apple", "intent": "other", "should_escalate": true}
+{"id": "2775943", "message": "how do I get the functionality to actually turn off Wi-Fi or Bluetooth in Control Center? The new functionality is a bad design. Misleading, insecure, and a battery burner.", "intent": "connectivity", "should_escalate": false}
+{"id": "301581", "message": "não faz nem 1 ano q comprei o IPhone 7 e ele já desliga com 50% de bateria, q bela bosta cara vcs fizeram eim !", "intent": "hardware", "should_escalate": false}
+{"id": "770971", "message": "This happened after I updated to 11.0.3 😬", "intent": "ios_update_bug", "should_escalate": false}
+{"id": "1062375", "message": "if i purchase a 2nd hand ipod classic 6 gen will it sync with the latest version of itunes?", "intent": "purchase_billing", "should_escalate": true}
+{"id": "249190", "message": "I changed my AppleID login & pass, but can't sign into the app store on my iPhone 7. My iPad didn't have this problem.", "intent": "icloud_account", "should_escalate": true}
+{"id": "2241140", "message": "Just upgraded to High Sierra and now my iMessage won't work on my Macbook Air. I tried signing out and it won't sign in. Times out. iCloud is still connected. What else can I do?", "intent": "icloud_account", "should_escalate": true}
+{"id": "2375264", "message": "since updating my iPhone 6 to the latest iOS, my screen is just freezing up and becoming non-responsive. help! I'm working from Indonesia right now and not sure how to get support", "intent": "hardware", "should_escalate": false}
+{"id": "1144256", "message": "As other people complain:Freezing the screen upon touching any link , the screen suddenly becomes black and restart again after few minutes", "intent": "app_crash", "should_escalate": false}
+{"id": "1800923", "message": "My phone is not backing up to iCloud and it's making me cry. please come to my rescue 🤒", "intent": "icloud_account", "should_escalate": true}
+{"id": "2032807", "message": "Why I can’t wait to get rid of my iphone.. 100% at 7am this morning, now 11% 5hrs later #useless #disgrace #shambles 🖕😡", "intent": "hardware", "should_escalate": false}
+{"id": "2349399", "message": "I’ve purchased extra iCloud space, but I keep getting message that backup hasn’t occurred in over 14 weeks. Usually connected to WiFi and power when backup should occur.", "intent": "connectivity", "should_escalate": false}
+{"id": "2515969", "message": "hello! I’m in Louisville and cannot make any outbound calls and no one can call me. Help,please", "intent": "other", "should_escalate": true}
+{"id": "1753196", "message": "do you know how stupid eye look type eye instead of I️? I’m on tinder & these boys think I’m drunk at 1100AM.", "intent": "other", "should_escalate": true}
+{"id": "2567067", "message": "Same error on 11.1.2. Can I restart the hotspot configuration from the iPhone ? I have tried to restart from the connected devices but does not work. Thank you! ", "intent": "app_crash", "should_escalate": false}
+{"id": "2569721", "message": "This stupid iOS 11 has messed up my phone. It keeps crashing, my loud speaker won’t work when I make calls", "intent": "ios_update_bug", "should_escalate": false}
+{"id": "1103696", "message": "super cool that all my apps crash, camera won’t open, can’t change volume, & phone randomly restarts since the new update. Nice one.", "intent": "app_crash", "should_escalate": false}
+{"id": "1828828", "message": "I’m buying the iPhone X. But in the meantime, can y’all let my 6 work without any issues? Y’all tripping.", "intent": "hardware", "should_escalate": false}
+{"id": "388043", "message": "- Is there an iOS 11.0.3 out soon or something? My Mail app crashes and needs a phone reboot twice daily at the moment. PITA.", "intent": "app_crash", "should_escalate": false}
+{"id": "2000397", "message": "I updated my phone and still seeing boxes for Why ?", "intent": "ios_update_bug", "should_escalate": false}
+{"id": "1378203", "message": "I contacted . No help. They said there should be a serial number on them but there isn't. I purchased them at Best Buy.", "intent": "purchase_billing", "should_escalate": true}
+{"id": "1037443", "message": "I have to keep restarting it when it freezes. It happens again though. I’m currently on 11.0", "intent": "app_crash", "should_escalate": false}
+{"id": "1645444", "message": "- I’m trying to backup my photos from my Macbook to my iCloud account. Been downloading for more than 24 hours. Sound correct?", "intent": "icloud_account", "should_escalate": true}
+{"id": "1242272", "message": "Sure doesn’t. I’m just tired of spending money on a product that’s not great on software and hardware. I was always #teamiphone not sure now", "intent": "hardware", "should_escalate": false}
+{"id": "1545207", "message": "I want my fucking picture back pull it up on iCloud I don't fuck know figure it the fuck out now cause I'm fucking PISSED!", "intent": "icloud_account", "should_escalate": true}
+{"id": "845901", "message": "Does anyone know why my phone doesn’t backup to iCloud? Although I have 50G space! #Help #iPhone", "intent": "icloud_account", "should_escalate": true}
+{"id": "2615358", "message": "FIX MY PHONE PLEASE IM GONNA SCREAM YOU JUST DELETED ALL MY MUSIC AND I CANT EVEN TRY TO DELETE ANYTHING YOU SUCK SO MUCH RN IM SO LIVID I PAY MY MONEY FOR A BROKE ASS PHONE? broooooooooooooooooooooooooooooooooooooooooooooo gimme a free iPhoneX", "intent": "hardware", "should_escalate": false}
+{"id": "1474846", "message": "hi, I had money removed from my account only for my payment method to be declined later and no purchase. Refund please.", "intent": "purchase_billing", "should_escalate": true}
+{"id": "894880", "message": "Hey why yes I did purchase ‘s album now give it to me damnit! Why isn’t it downloading or downloaded?!?", "intent": "purchase_billing", "should_escalate": true}
+{"id": "105315", "message": "Anybody else having a problem uploading screenshotted pictures from their #iphone?", "intent": "hardware", "should_escalate": false}
+{"id": "2295799", "message": "With new update my iphone 7 battery draining very quickly.Is it a hardware issue?", "intent": "battery_performance", "should_escalate": false}
+{"id": "1998558", "message": "help us please I have forgotten a Bluetooth device by mistake can this be undone ??? 🙏", "intent": "connectivity", "should_escalate": false}
+{"id": "2016368", "message": "what is this question mark box nonsense???? Can’t type certain things!!", "intent": "other", "should_escalate": true}
+{"id": "247614", "message": "you’ve got to be kidding me. Did the update, & now when I plug my phone in to charge, it takes forever! #wtf #help", "intent": "ios_update_bug", "should_escalate": false}
+{"id": "1803198", "message": "I have iOS 11.1.2 now and still the battery life is awful. I use my iPhone on a daily basis and now since the battery drain so fast I need to carry a powerbank everytime. :(", "intent": "battery_performance", "should_escalate": false}
+{"id": "1714794", "message": "Hey y’all tripping with the letter “ I️ “ please fix ASAP please & thank you. 🙃😬", "intent": "other", "should_escalate": true}
+{"id": "1747965", "message": "Hey , I already pay for so why is it just this morning asking me to join/not giving me an option to sign in....", "intent": "icloud_account", "should_escalate": true}
+{"id": "2596445", "message": "my iPhone won't update #help", "intent": "ios_update_bug", "should_escalate": false}
+{"id": "1095942", "message": "Poxa seu IOS 11.0.3 não está bom, não consegui conectar o acesso pessoal no pc e fica ligando o Bluetooth sozinho o tempo todo", "intent": "ios_update_bug", "should_escalate": false}
+{"id": "598105", "message": "How is my iCloud restore still running 29 hours later?!", "intent": "icloud_account", "should_escalate": true}
+{"id": "4906", "message": "The ‘Overlapping url over TIME on Free WiFi hotspots’ remains. v11.0.3. Not a WiFi problem; two different hotspots shown.", "intent": "connectivity", "should_escalate": false}
+{"id": "481750", "message": "Cellular data.", "intent": "connectivity", "should_escalate": false}
+{"id": "1408425", "message": "y’all messed up my phone", "intent": "other", "should_escalate": true}
+{"id": "859774", "message": "The screen freezes, start button does not respond, sometimes te screen doesn’t respond either... f**k, last upgrade is a shit!", "intent": "app_crash", "should_escalate": false}
+{"id": "1418031", "message": "4.0.1 yes I restarted it", "intent": "app_crash", "should_escalate": false}
+{"id": "404112", "message": "11.0.2 thanks for the response.", "intent": "other", "should_escalate": true}
+{"id": "801742", "message": "For example: The display for charging doesn‘t really work, my iPad shows sometimes ‚not charging‘ or notifications will show me hours later", "intent": "battery_performance", "should_escalate": false}
+{"id": "542310", "message": "Yes, updated this morning as soon as it was available, thanks.", "intent": "ios_update_bug", "should_escalate": false}
+{"id": "2533552", "message": "How Can u debit INR 2250 in the name of app purchase even without my permission feels like cheated __email__", "intent": "purchase_billing", "should_escalate": true}
+{"id": "2025606", "message": "Dear - I dropped family iCloud storage from 2TB to 200GB mid-Oct but still shows 2TB. Known issue?", "intent": "icloud_account", "should_escalate": true}
+{"id": "244590", "message": "Too early in the morning for my phone to be restarting itself! This is getting annoying! 🤦🏻‍♀️", "intent": "app_crash", "should_escalate": false}
+{"id": "1374588", "message": "Um. ? (#Xcode documentation selection color)", "intent": "other", "should_escalate": true}
+{"id": "1699928", "message": "I️T SHOULD ALSO LET ME USE THE LETTER “I️”", "intent": "other", "should_escalate": true}
+{"id": "90661", "message": "new iOS turns bluetooth back on each time I power down and reboot my iPhone 6plus. Pretty annoying since turning it off helps battery life.", "intent": "ios_update_bug", "should_escalate": false}
+{"id": "2347657", "message": "when are you guys fixing this I️ situation it’s so annoying", "intent": "other", "should_escalate": true}
+{"id": "2913356", "message": "Does anyone else experience issues with the message app crashing when you’re typing, and I️t just erases your entire message? It’s really frustrating when you’re having a discussion and your messages repeatedly get wiped. Is this even on the radar?", "intent": "app_crash", "should_escalate": false}
+{"id": "1626246", "message": "Will I get warranty coverage of iPhone X in India if I buy a network unlocked phone from USA??", "intent": "connectivity", "should_escalate": false}
+{"id": "748165", "message": "why the fucc doesnt my phone connect to wifi fix this", "intent": "connectivity", "should_escalate": false}
+{"id": "1064918", "message": "#ios11 में पाया गया नया बग, किसी को भी दे सकता है आपकी Photos का एक्सेस #ios11update", "intent": "ios_update_bug", "should_escalate": false}
+{"id": "1447255", "message": "Something 🐠 going on , completely shut off my cellular service on my iPhone for 3 days straight &. Still using data #WTF", "intent": "connectivity", "should_escalate": false}
+{"id": "2343774", "message": "Correct, so far it hasn’t duplicated issue. I’m running 11.1", "intent": "other", "should_escalate": true}
+{"id": "408836", "message": "my iPhone SE says that iCloud isn't verified despite several attempts to verify from my Macbook. I'm paying for iCloud. Oi.", "intent": "hardware", "should_escalate": false}
+{"id": "1083279", "message": "Hi How do I get a refund? I purchase a recharge gem at but it never went through and the amount has been ...", "intent": "purchase_billing", "should_escalate": true}
+{"id": "1339024", "message": "I requested a refund for purchases I mistakenly made on the App Store and requested refunds, it’s past 48 hours, but nothing.", "intent": "purchase_billing", "should_escalate": true}
+{"id": "2367745", "message": "aye wtf is going on with #iCloud the whole ecosystem been on some bullshit as of late..", "intent": "icloud_account", "should_escalate": true}
+{"id": "118111", "message": "Well my battery doesn’t last. I have a permanent mophie attached. All my apps crash and take over 30seconds to load consistently", "intent": "battery_performance", "should_escalate": false}
+{"id": "1519140", "message": "CAN YALL PLEASE FIX THIS 😭😭😭😭", "intent": "other", "should_escalate": true}
+{"id": "48038", "message": "after ios 11.1 update i could not use app store .. always it ask user id password and it has not been accept it", "intent": "ios_update_bug", "should_escalate": false}
+{"id": "2594379", "message": "why is that my downspeed is stupid fast yet my Apple TV is about as useful as a brick? Everything streams fine on a MacBook or iPhone.", "intent": "hardware", "should_escalate": false}
+{"id": "1973622", "message": "can I check the battery health of my iPhone 6?", "intent": "battery_performance", "should_escalate": false}
+{"id": "2955453", "message": "can I add company name to my billing address for my personal Apple ID? Sometimes I buy software that I use at my company (self-employed). Would love to get VAT invoices for those particular orders (like recent Pro purchase). 😀", "intent": "purchase_billing", "should_escalate": true}
+{"id": "1642580", "message": "Hey what is that A ? That keeps popping up in my predictive text. It’s annoying. Fixes?", "intent": "other", "should_escalate": true}
+{"id": "1834150", "message": "Anyone else have battery draining issues since the iOS 11 updates? Fixes? Hints? Tx", "intent": "ios_update_bug", "should_escalate": false}
+{"id": "944934", "message": "I've been locked out of my ipod, i've changed my password for the ID in question now it's not recognising the ID at all.", "intent": "icloud_account", "should_escalate": true}
+{"id": "1464354", "message": "my 6 is now shutting down when battery hits 75% or so. When I plug it back in, it shows 0 batt then jumps to 80% immediately.", "intent": "battery_performance", "should_escalate": false}
+{"id": "1327430", "message": "Und ich dachte mein MacBook bleibt frei von irgendwelchen Problemen.😑 Liebes Team, my right speaker made weird sounds once and now the overall volume is lower than the other + there are no more heights in the sound itself anymore. Is it a known problem?", "intent": "hardware", "should_escalate": false}
+{"id": "690372", "message": "Apple ID problems but will have to wait 24hrs for a response from #dreadful", "intent": "icloud_account", "should_escalate": true}
+{"id": "2567080", "message": "Whenever i go to make an in app prchase it says “Purchase Cancelled” helps me out plz!", "intent": "purchase_billing", "should_escalate": true}
+{"id": "2840380", "message": "why is it sometimes I can bypass my password screen to open my phone? It’s my only security I have to open my phone.", "intent": "icloud_account", "should_escalate": true}
+{"id": "878559", "message": "Need help in cancelling a subscription", "intent": "purchase_billing", "should_escalate": true}
+{"id": "389388", "message": "I noticed it today itself. Not sure though, if it’s pre-existing. Restart doesn’t fix it either", "intent": "app_crash", "should_escalate": false}
+{"id": "1013812", "message": "or is the refund successful or not?", "intent": "purchase_billing", "should_escalate": true}
+{"id": "2304617", "message": "good morning I have a problem with resetting my Apple ID", "intent": "icloud_account", "should_escalate": true}
+{"id": "1297975", "message": "since the last software upgrade, my phone is slow, keep loosing WiFi connection, messages are not being received. How can I fix this?", "intent": "connectivity", "should_escalate": false}
+{"id": "2144070", "message": "Haven’t restarted yet, seems intermittent", "intent": "app_crash", "should_escalate": false}
+{"id": "428729", "message": "Restarting it fixed it last time but it’s just happened again?? I’m sure restarting will sort it but I’m paying £50/month so sort it plz ❤️", "intent": "app_crash", "should_escalate": false}
+{"id": "2406519", "message": "Heading to Apple to day. Will say it’s charged then sitting off the charge for few minutes hits 20%", "intent": "purchase_billing", "should_escalate": true}
+{"id": "1703931", "message": "Hi, I have the iPhone X and I can’t establish my Apple ID settings on my new phone. When it asks me for my 4 digit password it stays like:", "intent": "icloud_account", "should_escalate": true}
+{"id": "1013077", "message": "Shouldn't my iPhone 7's battery life be much better than this?", "intent": "battery_performance", "should_escalate": false}
+{"id": "427835", "message": "I was charged for a subscription that I ended and y’all owe me $15.", "intent": "purchase_billing", "should_escalate": true}
+{"id": "242547", "message": "It’s like I’m only pretend controlling it because Apple thinks I’m too dumb to know when I want WiFi. Same thing w. screen brightness.", "intent": "connectivity", "should_escalate": false}
+{"id": "2493902", "message": "I was promised a receipt for a purchase and have not received it. No one answers the phone at Apple (tried several numbers)", "intent": "purchase_billing", "should_escalate": true}
+{"id": "667808", "message": "I got an email says I made a purchase I did not do. I got a pdf", "intent": "purchase_billing", "should_escalate": true}
+{"id": "1130561", "message": "Please software correct, phone it is locked time wife connection cut off. #ios11 #apple #iphone7", "intent": "ios_update_bug", "should_escalate": false}
+{"id": "428334", "message": "Question: Can i connect an iCloud Drive to #AppleTV and store movies there, and will they play on AppleTV?", "intent": "icloud_account", "should_escalate": true}
+{"id": "1791794", "message": "i0S 11.0.3 is bugged mess it’s draining my battery big time. i0S 11 has been a disaster. Can’t see it being fixed 😡😡😡", "intent": "battery_performance", "should_escalate": false}
+{"id": "2706847", "message": "please fix my Apple ID so I can access my apps 😩 this safari stuff isn’t cutting it 😭", "intent": "icloud_account", "should_escalate": true}
+{"id": "54456", "message": "why can’t i rearrange my apps on my homescreen ? With 5,8 inch screen it don’t makes sense to reach at the top of my phone !", "intent": "hardware", "should_escalate": false}
+{"id": "2920052", "message": "Wth can i not sign into gamecenter", "intent": "icloud_account", "should_escalate": true}
+{"id": "946660", "message": "Iphone 6s slowed down and battery draining very fast after updating to ios11 kindly solve the issue immediately 😒", "intent": "battery_performance", "should_escalate": false}
+{"id": "2051133", "message": "iOS 11 sucks can I go back to 10?", "intent": "ios_update_bug", "should_escalate": false}
+{"id": "1762179", "message": "Both I think, today was defo WiFi. I have 11.1", "intent": "connectivity", "should_escalate": false}
+{"id": "1780939", "message": "I am using iPhone 6s. Not sure what DM with device meant. Here the screen shot of iOS level on the iPhone", "intent": "hardware", "should_escalate": false}
+{"id": "2955492", "message": "I blocked my Apple ID by accident . Now i have to wait for 3 days. Are that workingdays? Or is weekend included? My iPhone is stolen. I have a new one now, but cant use my ID. So no apps.", "intent": "icloud_account", "should_escalate": true}
+{"id": "2406700", "message": "my iPhone X pauses Apple Music every time I lock it - is this supposed to happen?", "intent": "hardware", "should_escalate": false}
+{"id": "2481449", "message": "how do I get the portrait mode option on the camera???? #help", "intent": "hardware", "should_escalate": false}
