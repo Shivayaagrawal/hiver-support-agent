@@ -96,6 +96,28 @@ def test_complete_returns_disk_cache_without_api_call(tmp_path, monkeypatch):
     assert calls == []
 
 
+def test_complete_cache_hit_works_without_api_key(tmp_path, monkeypatch):
+    """Graders can replay --draft llm from committed cache with no GROQ_API_KEY."""
+    monkeypatch.setattr(llm_client, "CACHE_DIR", tmp_path)
+    monkeypatch.setattr(llm_client, "_use_cache", True)
+    monkeypatch.delenv("GROQ_API_KEY", raising=False)
+    monkeypatch.delenv("GROQ_API_KEY_2", raising=False)
+    monkeypatch.delenv("GROQ_API_KEY_3", raising=False)
+    cached = "Cached reply that is definitely long enough."
+    key = llm_client.cache_key("sys", "user")
+    (tmp_path / f"{key}.json").write_text(
+        json.dumps({"response": cached}),
+        encoding="utf-8",
+    )
+
+    def boom(_system: str, _user: str, *, api_key: str) -> str:
+        raise AssertionError("API must not be called without a key")
+
+    monkeypatch.setattr(llm_client, "_request_completion", boom)
+    assert llm_client.is_available() is False
+    assert llm_client.complete("sys", "user") == cached
+
+
 def test_complete_writes_cache_after_api_call(tmp_path, monkeypatch):
     monkeypatch.setattr(llm_client, "CACHE_DIR", tmp_path)
     monkeypatch.setattr(llm_client, "is_available", lambda: True)

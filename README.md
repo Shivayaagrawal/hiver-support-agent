@@ -9,27 +9,11 @@ Plan: [`PHASE_PLAN.md`](PHASE_PLAN.md)
 
 ## Reproduce (< 15 min, offline OK)
 
-No API key required for tests. With `GROQ_API_KEY`, CLI uses live Groq drafts.
+Headline numbers in `eval/eval_results.md` and `REPORT.md` are already written
+from a completed Groq run — you do not need an API key to read them. The steps
+below prove the code runs; regenerating LLM replies is optional verification.
 
-Eval efficiency (keep Groq — switching to Gemini does not fix sequential call cost).
-Default concurrency is **3 workers**: Groq free tier is ~8k tokens/min; higher
-worker counts tend to hit 429 rate limits. Completions are **disk-cached** under
-`data/processed/llm_cache/` so re-runs do not re-burn quota; use `--no-cache` to
-force fresh API calls after prompt changes.
-
-```bash
-# Default: full-set intent/escalation + concurrent LLM replies on 40-row sample
-PYTHONPATH=. python eval/run_eval.py --draft llm --reply-sample 40 --workers 3
-
-# Force fresh Groq calls (skip disk cache)
-PYTHONPATH=. python eval/run_eval.py --draft llm --reply-sample 40 --workers 3 --no-cache
-
-# Full golden ×2 ablation (slower, still concurrent)
-PYTHONPATH=. python eval/run_eval.py --draft llm --reply-sample 0 --workers 3
-
-# Offline template (CI / 15-min repro)
-PYTHONPATH=. python eval/run_eval.py --draft template
-```
+### Offline path (no API key, guaranteed under 15 min)
 
 ```bash
 python3 -m venv .venv
@@ -43,16 +27,39 @@ python scripts/fetch_raw_data.py
 # PYTHONPATH=. python scripts/build_golden_set.py
 
 PYTHONPATH=. pytest -q
-PYTHONPATH=. python eval/run_eval.py
+PYTHONPATH=. python eval/run_eval.py --draft template
 PYTHONPATH=. python scripts/run_pipeline_cli.py "my iPhone battery drains after the update"
 ```
 
-Expected: pytest green; `eval/eval_results.md` rewritten; CLI prints JSON
-`PipelineResult`.
+Expected: pytest green; `eval/eval_results.md` rewritten for the template arm;
+CLI prints JSON `PipelineResult`. Timed fresh-venv repro: **~2–3 min** when the
+raw CSV is already cached (`scripts/fetch_raw_data.py` no-ops if present). Cold
+Kaggle download adds a few minutes once, still under the 15-minute budget.
 
-Timed fresh-venv repro (Phase 12): **~2.3 min** on a machine with the raw CSV
-already cached (`scripts/fetch_raw_data.py` no-ops if present). Cold Kaggle
-download adds a few minutes once, still under the 15-minute budget.
+### Optional Groq path (~4–5 min) — real reply generation + ablation
+
+Requires `GROQ_API_KEY` in a local `.env` (see `.env.example`) **only if** you
+want fresh API calls. Skip this block entirely if you have no key: the headline
+numbers from this run are already in `eval/eval_results.md` / `REPORT.md`.
+
+This repo also ships `data/processed/llm_cache/` (~80 JSON replies from the
+n=40 eval). With cache on (the default), `--draft llm` replays those responses
+without calling Groq and without needing a key. Use `--no-cache` only when you
+have your own key and want a live re-check.
+
+Default concurrency is **3 workers**: Groq free tier is ~8k tokens/min; higher
+worker counts tend to hit 429 rate limits.
+
+```bash
+# Replay from committed cache (no key needed) or live Groq if cache misses
+PYTHONPATH=. python eval/run_eval.py --draft llm --reply-sample 40 --workers 3
+
+# Force fresh Groq calls (requires GROQ_API_KEY)
+PYTHONPATH=. python eval/run_eval.py --draft llm --reply-sample 40 --workers 3 --no-cache
+
+# Full golden ×2 ablation (slower; needs a key for any cache miss)
+PYTHONPATH=. python eval/run_eval.py --draft llm --reply-sample 0 --workers 3
+```
 
 ## Results summary
 
@@ -107,9 +114,10 @@ side. Retrieval is ablated with a paired t-test on groundedness (p=0.0040), not
 two averages eyeballed. High-similarity neighbors move groundedness more
 (Δ≈+0.83 when top_sim ≥ 0.35 vs ≈+0.29 below), which is why the escalation
 threshold sits at 0.35 rather than a round guess. Completions are disk-cached
-under `data/processed/llm_cache/` so a second eval pass does not re-burn quota;
-retries are capped and a shared request interval limiter keeps concurrent
-workers from hanging twenty minutes on an exhausted free tier. Failure write-up
+under `data/processed/llm_cache/` (committed in-repo) so graders can replay
+`--draft llm` without a key, and local re-runs do not re-burn quota; retries are
+capped and a shared request interval limiter keeps concurrent workers from
+hanging twenty minutes on an exhausted free tier. Failure write-up
 splits Track A (reply quality, Groq path) from Track B (routing, template path).
 The FP pile was traced to a thin index (median FP sim 0.207, most mass well
 below 0.35), so the next fix is coverage and DM-stub hygiene, not nudging the
@@ -148,3 +156,4 @@ held-out intent labels, production hardening).
 | `scripts/` | One-off entrypoints |
 | `notebooks/` | Exploration only — never shipped logic |
 | `data/golden/` | Protocol-labeled eval set (tracked) |
+| `data/processed/llm_cache/` | Committed Groq reply cache for key-free LLM replay |

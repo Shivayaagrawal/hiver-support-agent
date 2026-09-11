@@ -338,8 +338,10 @@ def main() -> None:
     draft_mode: DraftMode = args.draft
     if draft_mode == "auto":
         draft_mode = "llm" if llm_client.is_available() else "template"
-    if draft_mode == "llm" and not llm_client.is_available():
-        raise SystemExit("GROQ_API_KEY required for --draft llm")
+    # --draft llm without a key is OK when disk cache is on (committed cache hits).
+    # --no-cache always needs a live key.
+    if draft_mode == "llm" and not llm_client.is_available() and args.no_cache:
+        raise SystemExit("GROQ_API_KEY required for --draft llm --no-cache")
 
     llm_client.set_use_cache(not args.no_cache)
     workers = 1 if draft_mode == "template" else max(1, args.workers)

@@ -217,12 +217,14 @@ def _request_completion(system: str, user: str, *, api_key: str) -> str:
 
 def complete(system: str, user: str) -> str:
     """Call the configured chat model; use disk cache and fail-fast retries."""
-    if not is_available():
-        raise RuntimeError("GROQ_API_KEY is not set")
     if _use_cache:
         cached = _read_cache(system, user)
         if cached is not None:
             return cached
+    if not is_available():
+        raise RuntimeError(
+            "GROQ_API_KEY is not set (and no disk-cache hit for this prompt)"
+        )
 
     keys = api_keys()
     max_attempts = LLM_MAX_RETRIES * max(1, len(keys))

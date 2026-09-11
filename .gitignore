@@ -14,7 +14,9 @@ venv/
 
 # Data (large / regenerable)
 data/raw/
-data/processed/
+data/processed/**
+!data/processed/llm_cache/
+!data/processed/llm_cache/**
 
 # Keep golden eval tracked
 !data/golden/
@@ -26,8 +28,9 @@ data/processed/
 .idea/
 .vscode/
 
-# Eval outputs (regenerable)
+# Eval outputs (regenerable) — keep the committed headline table
 eval_results.md
+!eval/eval_results.md
 data/processed/baseline_results.json
 
 # Local Cursor agent rules — not part of the submission

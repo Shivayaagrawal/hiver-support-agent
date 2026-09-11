@@ -1,0 +1,1 @@
+{"model": "openai/gpt-oss-20b", "response": "It can happen if background apps or settings are using more power than usual. Try updating iOS, disabling background app refresh, and checking Battery > Battery Usage for any app that’s draining heavily. If the issue persists, resetting settings or contacting Apple Support can help diagnose the problem."}

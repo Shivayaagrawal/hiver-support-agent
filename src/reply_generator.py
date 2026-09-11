@@ -25,8 +25,6 @@ def draft_reply(
     """Draft a support reply, optionally grounded on retrieved cases."""
     use_llm = mode == "llm" or (mode == "auto" and llm_client.is_available())
     if use_llm:
-        if not llm_client.is_available():
-            raise RuntimeError("LLM draft requested but GROQ_API_KEY is not set")
         try:
             return llm_client.complete(
                 _SYSTEM_PROMPT,

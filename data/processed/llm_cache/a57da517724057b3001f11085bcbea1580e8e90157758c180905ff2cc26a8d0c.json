@@ -1,0 +1,1 @@
+{"model": "openai/gpt-oss-20b", "response": "Which iOS version are you currently running?  \nCheck Settings → Battery to see which apps are using the most power and consider disabling Background App Refresh or Low Power Mode.  \nIf the issue persists, let me know and we can explore further troubleshooting steps."}
