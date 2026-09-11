@@ -61,6 +61,13 @@ Otherwise `should_escalate` is `false` (routine product troubleshooting).
 
 ## What this set is / isn’t
 
+Intent and escalation labels were assigned by this written protocol, including
+running the same `classify_intent` keyword function that the production
+pipeline uses. They were **not** labeled by independent blind human judgment.
+That makes golden intent accuracy a consistency check against the labeling
+function (a known leak), not a held-out measure of NLU quality. Escalation
+labels likewise follow the rules above, not a second human adjudicator.
+
 - **Is:** a reproducible, protocol-labeled eval set aligned with the Phase 2
   taxonomy, suitable for baseline vs system comparison.
 - **Isn’t:** a multi-annotator gold standard with reported IAA. For the
