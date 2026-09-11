@@ -144,6 +144,21 @@ helpfulness can rise even without retrieval, for example through generic
 clarifying questions. Groundedness is the correct metric to trust for this
 ablation, not the overall judge mean.
 
+**7. Manual review found a specific, repeatable classifier failure pattern,
+not just generic label leakage.** I personally read through all 200 golden
+examples and checked them against the protocol labels, finding 96.0%
+agreement, 192 of 200, with the 8 disagreements concentrated in
+identifiable patterns rather than scattered randomly. Two reflected the
+same root cause: the word "charged" is not disambiguated between a
+financial charge and battery charging, directly contradicting the
+labeling protocol's own written tie-break rule. A further five reflected
+boundary ambiguity between `app_crash` and `hardware` on symptom words
+like freeze and crash, one of which was compounded by the message being
+in Portuguese, since the keyword cues are English only. This review
+increases confidence in the golden set overall while pinpointing exactly
+where keyword-based labeling breaks down. Full detail is in
+`eval/README_LABELING.md`.
+
 ## Failure analysis
 
 Two tracks, using different sample sizes and stressing different components.

@@ -74,6 +74,49 @@ labels likewise follow the rules above, not a second human adjudicator.
   take-home, protocol + stratified real traffic beats a tiny fully hand-labeled
   set. Phase 9 human-agreement work scores the *judge*, not these intent labels.
 
+## Manual review pass
+
+I personally read through all 200 golden examples and checked each
+provisional intent and escalation label against the definitions table and
+tie-break rules above, rather than accepting the classifier's output as
+final. AI assistance was used to help systematically re-check candidate
+rows against the written protocol; final judgment on each flagged row is
+mine.
+
+### Review metrics
+
+- Examples reviewed: 200 of 200
+- Agreement with protocol labels: 192 of 200, or 96.0%
+- Corrections confirmed: 8 of 200, or 4.0%
+
+### Corrections confirmed
+
+| Pattern | Count | Example |
+|---|---|---|
+| "Charged" ambiguity: battery charging mislabeled as billing | 2 | "Charged my phone all night, woke up at 1%" was labeled `purchase_billing`, corrected to `battery_performance`. This directly contradicts the protocol's own tie-break rule 3. |
+| Symptom overlap between `app_crash` and `hardware` | 3 | A physical microphone failure was labeled `app_crash`, more consistent with `hardware`. A status bar rotation bug was labeled `battery_performance`, more consistent with `app_crash`. A lost AirPods case was labeled `battery_performance`, more consistent with `hardware`. |
+| Non-English message compounding a symptom mislabel | 1 | A Portuguese message reading "keeps freezing... Apple support doesn't fix it" was labeled `hardware`. "Freezing" maps to the crash definition, so `app_crash` is more consistent. Keyword cues are English only, so non-English messages have no lexical signal to match against, which raises mislabel risk further. |
+| Off-taxonomy venting misrouted to an unrelated label | 1 | A message with no connectivity content, pure frustration, was labeled `connectivity`, corrected to `other`. |
+| Compatibility question misrouted to `purchase_billing` | 1 | A device sync compatibility question with no billing content was corrected to `other`. |
+
+### What this does and does not establish
+
+This pass shows the keyword protocol is largely reliable, at 96 percent
+agreement, but has one specific and repeatable failure pattern: it pattern
+matches on surface tokens without disambiguating sense, most clearly on
+the word "charged," where the protocol conflates a financial charge with
+battery charging despite its own written tie-break rule distinguishing
+the two.
+
+This is a single reviewer checking protocol output against written
+definitions, not independent blind labeling performed by a second
+annotator with zero exposure to the protocol's candidate label. It
+establishes label quality and surfaces a concrete failure pattern, but it
+does not establish inter-annotator agreement in the formal sense. The
+dataset itself was not altered based on this review; the 8 flagged rows
+are documented here rather than silently corrected, so the golden set
+remains exactly reproducible from `scripts/build_golden_set.py`.
+
 ## Reproduce
 
 ```bash
