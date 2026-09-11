@@ -1,0 +1,34 @@
+# Secrets
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.venv-repro/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Data (large / regenerable)
+data/raw/
+data/processed/
+
+# Keep golden eval tracked
+!data/golden/
+!data/golden/golden_eval.jsonl
+
+# Notebooks / IDE
+.ipynb_checkpoints/
+.DS_Store
+.idea/
+.vscode/
+
+# Eval outputs (regenerable)
+eval_results.md
+data/processed/baseline_results.json
+
+# Local Cursor agent rules — not part of the submission
+.cursorrules
